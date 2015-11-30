@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 62.5%;/*1em=10px*/
+    font-family:"Hiragino Sans GB W3","Hiragino Sans GB W6",Arial,sans-serif;
+    background: gray;
+}
+.warp{
+    width: 100%;
+    max-width: 640px ;
+    margin:0 auto;
+    background-color: #fff;
+}
+.hearder{
+    width: 100%;
+    border-bottom: 1px solid #74d4eb;
+    background: #29bde0;
+}
+.home{
+    float:left;
+    margin-top: 9.6%;
+    margin-left: 3.1%
+}
+.home img{
+    max-width: 50px;
+}
+.more{
+    float:right;
+    margin-right: 3.1%;
+    margin-top:9.6%;
+}
+.more img{
+    max-width: 40px;
+}
+.hearder h1{
+    font-family:"Hiragino Sans GB W6", sans-serif;
+    text-align:center;
+    color:#fff;
+    font-size: 2rem;
+    padding-top: 12%;
+    padding-bottom: 3.1%;
+}
+.content{
+    width: 100%;
+    background: #29bde0;
+
+}
+.medal{
+    padding-top: 3.7%;
+    text-align:center;
+}
+.slogan{
+    width:70%;
+    margin:0 auto;
+}
+.slogan p {
+    font-size: 3.3em;
+    font-family: "Hiragino Sans GB W6", sans-serif;
+    color: #ffc865;
+    padding-top: 8.595%;
+    padding-bottom: 13.2%;
+}
+.role{
+    width:71.5%;
+    margin: 0 auto;
+    padding-bottom: 3.7%;
+}
+.role p{
+    font-size: 1.7rem;
+    font-family: "Hiragino Sans GB W6", sans-serif;
+    color: #fff;
+}
+.process{
+    width:100%;
+    background: #fff;
+    border-top: 1px solid #22292C;
+}
+.process h1{
+    padding-top: 2.3%;
+    padding-bottom: 5%;
+    font-size: 1.9rem;
+    color: #515151;
+    margin-left: 12%;
+}
+.process p{
+    margin-left: 12%;
+    color: #a6a6a6;
+    font-size:1.7rem;
+    padding-bottom: 4%;
+}
+.process span{
+    float:right;
+    font-size: 1.2rem;
+    color: #cbcbcb;
+    margin-top:3.2%;
+    margin-right: 16%;
+}
+.footer{
+    background:rgba(153,223,240,0.8);
+    position: fixed;
+    bottom: 0;
+    width:640px;
+
+}
+.again{
+    background: #f66f6f;
+    float: left;
+    margin: 5%;
+    border-radius: 10px;
+    width:40%;
+    text-align:center;
+}
+.again p{
+    font-size:1.5rem;
+    padding: 24px 35px;
+
+}
+.share{
+    background: #fbb435;
+    float: left;
+    margin: 5%;
+    border-radius: 10px;
+    width:40%;
+    text-align:center;
+}
+.share p{
+    font-size:1.5rem;
+    padding: 24px 35px;
+}
